@@ -94,4 +94,4 @@ def guess_the_number():
 if __name__ == "__main__":
     guess_the_number()
 
-## Desarrollado por Hernan Mendez Guerrero - 1101685607
+## Desarrollado por Hernan Mendez Guerrero - 1101685607 
