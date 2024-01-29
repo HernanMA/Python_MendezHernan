@@ -109,3 +109,5 @@ total_compra = calcular_total_productos(cantidad_productos)
 print(f"El total de la compra es: {total_compra}")
 
 ## Desarrollado por Hernan Mendez Guerrero - 1101685607
+
+

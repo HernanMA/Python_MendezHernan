@@ -35,3 +35,5 @@ print(f"Input = {entered_value}")
 print("")
 print("            $1   $5   $10")
 print(f"Output= {entered_value} = {result[0]} + {result[1]} + {result[2]}")
+
+## Desarrollado por Hernan Mendez Guerrero - 1101685607 
