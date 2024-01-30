@@ -21,15 +21,23 @@ def calculate_coins(amount):
 #return monedas_1, monedas_5, monedas_10: La función devuelve una tupla con las cantidades de monedas de 1, 5 y 10, respectivamente.
     return coins_1, coins_5, coins_10
 
+# Definir limite 
+while True:
+    try:
+        entered_value = int(input(""))
+        if entered_value > 0 and entered_value < 1000:
+            break
+        else:
+            print("Number invalid")
+    except ValueError:
+        print("")
+
 #Se establece el valor que se desea descomponer en monedas.
-entered_value = 28
+print(entered_value)
 #Llama a la función calcular_monedas con el valor dado y almacena el resultado en la variable resultado.
 result = calculate_coins(entered_value)
 
-#Imprime el resultado en una cadena formateada utilizando f-strings, mostrando las cantidades de monedas de 1, 5 y 10 necesarias para representar el valor dado.
-print(f"For {entered_value} you need {result[0]} coins of 1, {result[1]} coins of 5, y {result[2]} coins of 10.")
-coins_1, coins_5, coins_10 = entered_value % 10, (entered_value % 100) // 5, entered_value // 10
-
+# Salida Usuario       
 print("")
 print(f"Input = {entered_value}")
 print("")
