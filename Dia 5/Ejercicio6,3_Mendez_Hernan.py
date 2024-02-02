@@ -25,3 +25,5 @@ if chocaran:
     print(True)
 else:
     print(False)
+
+# Hecho por Hernan Mendez Guerrero 1101685607

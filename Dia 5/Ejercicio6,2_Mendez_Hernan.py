@@ -29,3 +29,5 @@ print("Lista de palabras:", lista_palabras)
 print("Diccionario de frecuencias:", frecuencia_palabras)
 print("Conjunto de palabras únicas:", conjunto_palabras)
 print("Tupla de frecuencias:", tupla_frecuencias)
+
+# Hecho por Hernan Mendez Guerrero 1101685607

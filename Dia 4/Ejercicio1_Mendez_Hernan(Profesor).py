@@ -23,6 +23,3 @@ for case in range(T):
     result=pares(T_n,n,k)
     print(" ")
     print("Case {}:{}".format(case+1,result))
-
-# Hecho por Hernan Mendez Guerrero 1101685607
-# Hecho por Eduar Damian Chanaga Gonzalez 1095581647 

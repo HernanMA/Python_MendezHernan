@@ -26,7 +26,7 @@ for y in range(1, T + 1):
     else:
         print(" ")
 for z in range(0, T, 1):
-    print(f"Caso #{z+1}: {found_pairs2[z]}")
+    print(f"Case #{z+1}: {found_pairs2[z]}")
 
 
 # Hecho por Hernan Mendez Guerrero 1101685607
