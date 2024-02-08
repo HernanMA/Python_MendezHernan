@@ -1,9 +1,7 @@
 import json
 
-import json
-
-with open('data.json', 'r') as Lospedidos:
-    diccionario = json.load(Lospedidos)
+with open('data.json', 'r') as Negocios:
+    diccionario = json.load(Negocios)
 
 pedidos = diccionario["ventas"]["pedidos"]
 comerciales = diccionario["ventas"]["comerciales"]
